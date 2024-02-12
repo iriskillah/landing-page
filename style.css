@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 
 .header-container {
     display: flex;
@@ -101,11 +105,111 @@ a:link {
 /* Content one */
 
 .content-one-container {
+    text-align: center;
+    padding: 64px 200px 96px 200px;
+    margin-bottom: 50px;
+}
+
+.headline-one {
+    flex: 1;
+    height: 100px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    flex-direction: row;
+    
+}
+
+.headline-two {
     display: flex;
-    flex-flow:wrap;
-    justify-content:center;
-    color: black;
-    padding: 5px 0;
+    gap: 64px;
+    align-items: center;
+    justify-content: center;
+}
+
+figure, .row{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.row p {
+    font-size: 18px;
+    color: rgb(149, 162, 176);
+    font-weight: 500;
+}
+
+/* Content two */
+
+.content-two-container {
+    background-color: #E5E7EB;
+    padding: 100px 410px 90px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+/* Content Three */
+.content-three-container {
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+
+.row-container {
+    display: flex;
+    border-radius: 8px;
+    padding: 50px 50px 50px 50px;
+    margin: 100px;
+    width: 950px;
+    gap: 300px;
+    background-color: #3882F6;
+}
+
+.content-three {
+    border: 1px solid black;
+    justify-content:  flex-start;
+    width: 600px;
+}
+
+.signup {
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.row-container p {
+    color: rgb(212, 216, 221);
+}
+
+/* Footer */
+
+.footer-container {
+    background-color: #1F2937; 
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    color: #E5E7EB;
 }
 
 
